@@ -1,5 +1,5 @@
 # jetsimplecrud
-Simple JET CRUD with JSON Server
+Simple JET CRUD with JSON Server (more about JSON Server: https://github.com/typicode/json-server)
 
 db.json - data structure for JSON Server (to simulate fake REST requests)
 
