@@ -1,0 +1,27 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+    <div id='fragment-container'>
+        <div class="oj-panel oj-margin">
+            <h3 class="oj-header-border" data-bind="text: 'Employees'"></h3> 
+            <br/>
+            <table id="t1" summary="Employees" aria-label="Employees"
+                   data-bind="ojComponent: {component: 'ojTable', 
+                                        data: datasource,
+                                        rootAttributes: {style:'width: 100%; height:100%;'},
+                                        columns: [{headerText: 'First Name', 
+                                                   field: 'FirstName',
+                                                   sortable: 'enabled'},
+                                                  {headerText: 'Last Name', 
+                                                   field: 'LastName',
+                                                   sortable: 'enabled'},
+                                                  {headerText: 'Email', 
+                                                   field: 'Email',
+                                                   sortable: 'enabled'}]
+                                        }">
+            </table>
+        </div>
+    </div>
+</div>

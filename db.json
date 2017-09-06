@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "Id": 1,
+      "FirstName": "Edmond",
+      "LastName": "Halley",
+      "Email": "edmond@redsamuraiconsulting.com"
+    },
+    {
+      "Id": 2,
+      "FirstName": "Geraldine",
+      "LastName": "Seydoux",
+      "Email": "geraldine@redsamuraiconsulting.com"
+    },
+    {
+      "Id": 3,
+      "FirstName": "Michael",
+      "LastName": "Faraday",
+      "Email": "michael@redsamuraiconsulting.com"
+    }
+  ]
+}
